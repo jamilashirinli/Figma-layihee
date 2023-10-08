@@ -1,0 +1,161 @@
+@media ( max-width: 780px){
+    .container{
+        padding: 0 32px;
+    }
+
+    
+    .about-bottom__left {
+        margin-right: 0;
+    }
+
+    .about-bottom__img{
+        display: none;
+     }
+ 
+     .about-items{
+         flex-wrap: wrap;
+         margin-left: -70px;
+     }
+ 
+     .about-item{
+         width: 120px;
+         margin-right: 34px;
+         margin-bottom: 27px;
+     }
+ 
+     .about-item:last-child{
+         margin-bottom: 0;
+     }
+     h2{
+        font-size: 14px;
+    }
+    .about-item__title{
+        font-size: 32px;
+    }
+    h4{
+        font-size: 16px;
+    }
+     .about-item__title{
+         font-size: 16px;
+     }
+ 
+     .about-item__text{
+         font-size: 14px;
+     }
+
+}
+
+@media (max-width: 640px){
+    .container{
+        padding: 0 32px;
+    }
+   
+    .about-top{
+        flex-direction: column;
+    }
+
+    .about-top__left{
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .about-top__text{
+        margin-right: 0;
+    }
+
+    
+  
+}
+
+@media (max-width: 840px){
+.about__title {
+    margin-bottom: 22px;
+}
+}
+@media (max-width: 840px){
+.section-title {
+    font-size: 32px;
+}
+}
+@media (max-width: 390px){
+    
+    
+    .container{
+        padding: 0 32px;
+    }
+    .section-title{
+        font-size: 26px;
+    }
+
+   
+
+    .about-top__left{
+        margin-bottom: 0;
+    }
+
+    .intro-top__item{
+        font-size: 10px;
+        padding-left: 15px;
+        margin-right: 11px;
+    }
+
+    .intro-top__item::before{
+        width: 10px;
+        height: 10px;
+        top: 0;
+    }
+
+   
+    .about{
+        margin-bottom: 67px;
+    }
+
+    .about__title{
+        margin-bottom: 17px;
+    }
+
+    .about-top{
+        flex-direction: column;
+        margin-bottom: 45px;
+    }
+
+    .about-top__text{
+        font-size: 12px;
+        margin-bottom: 11px;
+    }
+
+    .about-img{
+        width: 170px;
+        margin: 0;
+    }
+
+    .about-top__left{
+        max-width: 100%;
+    }
+
+    .about-item{
+        width: 87px;
+        margin-right: 34px;
+        margin-bottom: 27px;
+    }
+
+    .about-item:last-child{
+        margin-bottom: 0;
+    }
+
+    .about-item__title{
+        font-size: 12px;
+    }
+
+    .about-item__text{
+        font-size: 10px;
+    }
+
+    
+    .container-bg{
+        padding: 0 32px;
+    }
+
+    
+
+}
